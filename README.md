@@ -130,6 +130,6 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 <div align="center">
 
-  **Made with ❤️ by [@indieceo](https://x.com/indieceo)**
+  **Made with ❤️ by [INDIETECH](https://indietech.dev)**
 
 </div>
