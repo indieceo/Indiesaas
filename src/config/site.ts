@@ -1,7 +1,7 @@
 const site_url = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
 
 export const site = {
-  name: "Indie SaaS",
+  name: "IndieSaas",
   description: "A modern SaaS starter built with Next.js, Drizzle, and Better Auth",
   url: site_url,
   ogImage: `${site_url}/og.jpg`,

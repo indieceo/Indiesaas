@@ -23,6 +23,11 @@ import {
 } from "@/components/ui/card"
 import PlanSelector from "./plan-selector"
 
+
+export const metadata = {
+    title: "Billing & Subscription"
+}
+
 export default async function Plans() {
     const session = await auth.api.getSession({ headers: await headers() })
     const data = await getActiveSubscription()

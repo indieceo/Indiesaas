@@ -86,7 +86,7 @@ const socialLinks: FooterLinkProps[] = [
 export const FooterSection = () => {
     return (
         <footer id="footer">
-            <div className="mx-auto max-w-7xl pt-16 pb-0 lg:pb-16">
+            <div className="mx-auto max-w-7xl pt-16 pb-0 lg:pb-12">
                 <div className="relative overflow-hidden rounded-xl border border-border bg-card/50 shadow-xl backdrop-blur-sm">
                     <div className="relative p-8 lg:p-12">
                         {/* Main Footer Content */}
@@ -99,19 +99,17 @@ export const FooterSection = () => {
                                         href="/"
                                         className="group mb-4 flex gap-2 font-bold"
                                     >
-                                        <div className="relative">
-                                            <Image
+                                        <Image
                                                 src={site.logo}
                                                 alt={site.name}
                                                 width={30}
                                                 height={30}
                                             />
-                                        </div>
                                         <h3 className="font-bold text-2xl">
                                             {site.name}
                                         </h3>
                                     </Link>
-                                    <p className="mb-6 text-muted-foreground text-sm leading-relaxed">
+                                    <p className="mb-6 text-muted-foreground leading-relaxed">
                                         Build and scale your SaaS faster with
                                         our Starter Kit. From authentication to
                                         payments, we've got you covered.
@@ -272,20 +270,20 @@ export const FooterSection = () => {
                                
                                 
                                 <div className="flex items-center gap-2 text-muted-foreground text-sm">
-                                    <span>Sponsored by</span>
+                                    <span>This SaaS Starter is built by</span>
                                     <Link
                                         target="_blank"
-                                        href="https://posthyve.com"
+                                        href="https://indietech.dev"
                                         className="flex items-center gap-1 font-semibold"
                                     >
                                         <Image
-                                            src="https://posthyve.com/logo.svg"
-                                            alt="Posthyve"
+                                            src="https://indietech.dev/logo.svg"
+                                            alt="Indietech"
                                             width={16}
                                             height={16}
                                             className="inline-block"
                                         />
-                                        Posthyve
+                                        Indietech
                                     </Link>
                                 </div>
                             </div>

@@ -1,6 +1,6 @@
 <div align="center">
   <img src="public/logo.svg" alt="IndieSaas Starter Logo" width="80" height="80">
-  <h1 style="color: #FB923C; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 42px; text-align: center; margin: 20px 0 0 0;">
+  <h1 style="color: #6d28d9; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 42px; text-align: center; margin: 20px 0 0 0;">
     IndieSaas Starter
   </h1>
 </div>

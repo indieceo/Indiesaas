@@ -168,7 +168,7 @@ export const TeamSection = () => {
     }
 
     return (
-        <section id="team" className="container mx-auto px-4 py-24 sm:py-32">
+        <section id="team" className="container mx-auto px-4 py-16 sm:py-20">
             <div className="mb-8 text-center">
                 <h2 className="mb-2 text-center text-lg text-primary tracking-wider">
                     Team

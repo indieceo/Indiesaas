@@ -55,7 +55,7 @@ const featureList: FeaturesProps[] = [
 
 export const FeaturesSection = () => {
     return (
-        <section id="features" className="container mx-auto px-4 py-24 sm:py-32">
+        <section id="features" className="container mx-auto px-4 py-16 sm:py-20">
             <h2 className="mb-2 text-center text-lg text-primary tracking-wider">
                 Features
             </h2>

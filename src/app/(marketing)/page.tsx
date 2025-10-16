@@ -8,7 +8,7 @@ import { PricingSection } from "@/components/layout/sections/pricing"
 import { ServicesSection } from "@/components/layout/sections/services"
 import { TeamSection } from "@/components/layout/sections/team"
 import { TestimonialSection } from "@/components/layout/sections/testimonial"
-import Trusted from "@/components/layout/sections/trusted"
+import LogoCloud from "@/components/logo-cloud"
 import { site } from "@/config/site"
 
 export const metadata = {
@@ -48,7 +48,7 @@ export default function Home() {
     return (
         <>
             <HeroSection />
-            <Trusted />
+            <LogoCloud />
             <BenefitsSection />
             <FeaturesSection />
             <ServicesSection />

@@ -82,14 +82,3 @@ html {
     animation: marquee-vertical var(--duration) linear infinite;
   }
 }
-
-::selection {
-  background: var(--primary);
-  color: black;
-  -webkit-text-fill-color: black;
-}
-::-moz-selection {
-  background: var(--primary);
-  color: black;
-  -webkit-text-fill-color: black;
-}

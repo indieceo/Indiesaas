@@ -72,7 +72,7 @@ const plans: PlanProps[] = [
 
 export const PricingSection = () => {
     return (
-        <section id="pricing" className="container mx-auto px-4 py-24 sm:py-32">
+        <section id="pricing" className="container mx-auto px-4 py-16 sm:py-20">
             <h2 className="mb-2 text-center text-lg text-primary tracking-wider">
                 Pricing
             </h2>
@@ -85,7 +85,7 @@ export const PricingSection = () => {
                 Choose the perfect plan that fits your needs and budget.
             </h3>
 
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-4">
+            <div className="grid space-x-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-4">
                 {plans.map(
                     ({
                         title,

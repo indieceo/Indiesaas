@@ -45,7 +45,7 @@ export const ServicesSection = () => {
     return (
         <section
             id="services"
-            className="container mx-auto px-4 py-24 sm:py-32"
+            className="container mx-auto px-4 py-16 sm:py-20"
         >
             <h2 className="mb-2 text-center text-lg text-primary tracking-wider">
                 Core Features

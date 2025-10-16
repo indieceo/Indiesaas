@@ -10,9 +10,8 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { RiUser3Line, RiShieldLine, RiAlarmWarningLine } from "@remixicon/react"
 import { PageHeader } from "@/components/layout/page-header"
-import type { Metadata } from "next"
 
-export const metadata: Metadata = {
+export const metadata = {
     title: "Settings"
 }
 
