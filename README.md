@@ -120,16 +120,10 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 ---
 
-<div align="center" >
-  <p><strong>Sponsored by Posthyve</strong></p>
-  <a href="https://posthyve.com" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
-    <img src="https://posthyve.com/logo.svg" alt="Posthyve" width="32" height="32">
-  </a>
-  <p><em>All-in-One Social Media Management Platform</em></p>
-</div>
-
 <div align="center">
-
-  **Made with ❤️ by [INDIETECH](https://indietech.dev)**
-
+  <p><strong>This SaaS Starter is built by</strong></p>
+  <a href="https://indietech.dev" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
+    <img src="https://indietech.dev/logo.svg" alt="Indietech" width="32" height="32">
+    <span style="font-weight: 600;">INDIETECH</span>
+  </a>
 </div>
