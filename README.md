@@ -74,32 +74,34 @@ npm run dev
 pnpm dev
 ```
 
-##  Configuration
+##  Project Structure
 
-### Site Configuration
-Customize your website settings in `src/config/site.ts`:
-- App name, description, and branding
-- Email addresses for support and system emails
-- Social media links
-- Logo and OG image paths
+Key configuration and structure files:
 
-### Better Auth Configuration
-The authentication is configured in `src/lib/auth.ts`. You can customize:
-- OAuth providers (Google, GitHub, etc.)
-- Email templates
-- Session settings
-- Password policies
+```
+src/
+├── app/                    # Next.js app directory
+│   ├── (marketing)/       # Marketing pages
+│   ├── auth/              # Authentication pages
+│   ├── dashboard/         # Dashboard pages
+│   └── api/               # API routes
+├── components/            # React components
+│   ├── layout/           # Layout components
+│   └── ui/               # shadcn/ui components
+├── config/
+│   └── site.ts           # Site configuration
+├── lib/
+│   ├── auth.ts           # Better Auth configuration
+│   └── payments/         # Stripe payment logic
+├── database/
+│   ├── db.ts             # Database connection
+│   └── schema.ts         # Database schema
+└── styles/               # Global styles
 
-### Database Configuration
-Database connection and schema are managed through:
-- `drizzle.config.ts` - Drizzle ORM configuration
-- `src/database/schema.ts` - Better Auth schema definition
-
-### UI Customization
-The UI is built with shadcn/ui components and can be customized:
-- Theme colors in `src/styles/globals.css`
-- Custom styles in `src/styles/custom.css`
-- Component variants in individual component files
+drizzle.config.ts         # Drizzle ORM configuration
+next.config.ts            # Next.js configuration
+biome.json                # Biome linter/formatter config
+```
 
 
 ## Usage
@@ -121,9 +123,10 @@ This project is licensed under the MIT License. You are free to use, modify, and
 ---
 
 <div align="center">
-  <p><strong>This SaaS Starter is built by</strong></p>
-  <a href="https://indietech.dev" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
-    <img src="https://indietech.dev/logo.svg" alt="Indietech" width="32" height="32">
-    <span style="font-weight: 600;">INDIETECH</span>
+  <a href="https://indietech.dev" target="_blank">
+    <img src="https://indietech.dev/logo.svg" alt="IndieTech Logo" width="32" height="32">
   </a>
+  <p>
+    Visit <strong><a href="https://indietech.dev">IndieTech.dev</a></strong> <br/> for more on our products and services.
+  </p>
 </div>
