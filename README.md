@@ -123,10 +123,10 @@ This project is licensed under the MIT License. You are free to use, modify, and
 ---
 
 <div align="center">
-  <a href="https://indietech.dev" target="_blank">
+  <a href="https://indietech.dev/?utm_source=github&utm_campaign=indiesaas" target="_blank">
     <img src="https://indietech.dev/logo.svg" alt="IndieTech Logo" width="32" height="32">
   </a>
   <p>
-    Visit <strong><a href="https://indietech.dev">IndieTech.dev</a></strong> <br/> for more on our products and services.
+    Visit <strong><a href="https://indietech.dev/?utm_source=github&utm_campaign=indiesaas">IndieTech.dev</a></strong> <br/> for more on our products and services.
   </p>
 </div>

@@ -273,7 +273,7 @@ export const FooterSection = () => {
                                     <span>This SaaS Starter is built by</span>
                                     <Link
                                         target="_blank"
-                                        href="https://indietech.dev"
+                                        href="https://indietech.dev/?utm_source=indiesaas"
                                         className="flex items-center gap-1 font-semibold"
                                     >
                                         <Image
